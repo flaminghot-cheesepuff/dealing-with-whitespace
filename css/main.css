@@ -20,7 +20,7 @@ article h1 {
   font-weight: normal;
   padding-bottom: 0;
   line-height: 2px;
-  padding-top: .5rem;
+  padding-top: .8rem;
 }
 
 article header {
@@ -29,15 +29,15 @@ article header {
 
 article header p {
   font-style: italic;
-  line-height: 2px;
-  margin-bottom: 1.8rem;
+  line-height: 5px;
+  margin-bottom: -5px;
 }
 
 header::after {
   content: " ";
   display: block;
   border-bottom: 1px solid #999;
-  margin-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 blockquote {
@@ -46,7 +46,8 @@ blockquote {
 
 article blockquote p {
   font-size: 1rem;
-  line-height: 1.2rem;
+  line-height: 1.3rem;
+  margin-bottom: 1rem;
 }
 
 .quote {
@@ -54,23 +55,27 @@ article blockquote p {
 }
 
 body {
-  margin: 0 0 1.125rem 0;
+  margin: 0;
   padding-top: .2rem;
+  margin-bottom: 1.3rem;
 }
 
 article p {
   font-size: .88rem;
-  margin-bottom: 1.32rem;
+  margin-bottom: 1.2rem;
 }
 
 article ol {
-  padding: 0 1em;
   font-size: .88rem;
-  margin-top: 2px;
+  padding: 0;
+  margin-left: 1em;
+  margin-top: -3px;
+  margin-bottom: 1.3em;
 }
 
 article::after {
   content: " ";
   display: block;
   border-bottom: 1px solid #999;
+  margin-bottom: .8rem;
 }
