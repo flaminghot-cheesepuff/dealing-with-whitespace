@@ -11,12 +11,20 @@ html {
   box-sizing: inherit;
 }
 
+article {
+  font-size: 1.125rem;
+}
+
 article h1 {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: normal;
   padding-bottom: 0;
   line-height: 2px;
   padding-top: .5rem;
+}
+
+article header {
+  margin-bottom: 1rem;
 }
 
 article header p {
@@ -34,20 +42,31 @@ header::after {
 
 blockquote {
   color: #555;
-  padding: 0 1rem;
+}
+
+article blockquote p {
+  font-size: 1rem;
+  line-height: 1.2rem;
+}
+
+.quote {
+  font-style: normal;
 }
 
 body {
-  margin: 0 0 1.3rem;
+  margin: 0 0 1.125rem 0;
   padding-top: .2rem;
 }
 
 article p {
   font-size: .88rem;
+  margin-bottom: 1.32rem;
 }
 
 article ol {
-  padding: 0 1.3rem;
+  padding: 0 1em;
+  font-size: .88rem;
+  margin-top: 2px;
 }
 
 article::after {
