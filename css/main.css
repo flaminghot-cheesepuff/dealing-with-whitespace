@@ -3,6 +3,8 @@ html {
   font-family: "Crimson Text", serif;
   font-size: 1.125rem;
   line-height: 1.3rem;
+  color: #222;
+  padding: 0 1rem;
 }
 
 *, *::before, *::after {
@@ -11,8 +13,14 @@ html {
 
 h1 {
   font-size: 1.5rem;
+  font-weight: normal;
 }
 
 .author {
   font-style: italic;
+}
+
+blockquote {
+  color: #555;
+  padding: 0 1rem;
 }
