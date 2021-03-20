@@ -11,20 +11,25 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+article h1 {
   font-size: 1.5rem;
   font-weight: normal;
+  padding-bottom: 0;
+  line-height: 2px;
+  padding-top: .5rem;
 }
 
-header > p {
+article header p {
   font-style: italic;
-  line-height: 0;
+  line-height: 2px;
+  margin-bottom: 1.8rem;
 }
 
 header::after {
   content: " ";
   display: block;
   border-bottom: 1px solid #999;
+  margin-bottom: 1rem;
 }
 
 blockquote {
@@ -37,7 +42,11 @@ body {
   padding-top: .2rem;
 }
 
-ol {
+article p {
+  font-size: .88rem;
+}
+
+article ol {
   padding: 0 1.3rem;
 }
 
